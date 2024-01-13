@@ -1,0 +1,111 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-left: 20px
+}
+.title1 {
+  color: #2980b9;
+  font-size: 25px;
+}
+
+.tituloContainer {
+  gap: 15px;
+}
+
+.Form1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 500px;
+  gap: 20px;
+}
+
+.label {
+  font-size: 25px;
+}
+
+.inputText {
+  font-size: 16px;
+  padding: 3px;
+}
+
+.botonEnviar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2980b9;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.botonEnviar:hover {
+  background-color: #2980b9;
+}
+
+.inputPdf {
+  background-color: #3498db;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.ArchivosPDFcontainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.fileLabel {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  font-size: 20px;
+}
+
+.pdfIcon {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.inputPdf {
+  display: none;
+}
+
+.selectedFile {
+  margin-top: 10px;
+}
+
+
+@media screen and (min-width: 300px) {
+  .form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    
+  }
+  .container {
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 730px) {
+  .form {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+}

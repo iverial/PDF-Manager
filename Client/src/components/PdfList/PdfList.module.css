@@ -1,0 +1,199 @@
+.listContainer {
+  max-width: 730px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+.titulo {
+  display: flex;
+  background-color: #3498db;
+  padding: 5px 5px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.pdfItem {
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  border-bottom: 4px solid #ddd;
+  padding: 10px;
+}
+
+.pdfInfo {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.pdfICON {
+  margin-right: 10px;
+}
+
+.pdfTitle {
+  display: flex;
+  font-size: 18px;  
+  text-align: center;
+  padding-top: 6px;
+  align-items: flex-start;
+  width: 90%
+}
+
+.pdfIcon {
+  margin-top: 10px;
+  width: 30px;
+  height: 30px;
+  fill: #3f51b5;
+}
+
+.editButton {
+  background-color: #2980b9;
+  border-radius: 10px;
+  color: #ffffff;
+  border: none;
+  padding: 8px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin-right: 3px;
+}
+
+.editButton:hover {
+  background-color: #0a1e2a;
+  color: #ffffff;
+  /* animation: shake 0.5s;  */
+}
+
+.editButton svg {
+  /* margin-right: 8px;  */
+  font-size: 23px;
+}
+
+.editCancel{
+  background-color: #2980b9;
+  border-radius: 10px;
+  color: #ffffff;
+  border: none;
+  padding: 8px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin-right: 3px;
+}
+
+.editCancel svg {
+  font-size: 23px;
+}
+
+.editCancel:hover {
+  background-color: #c20333;
+  color: #ffffff;
+}
+
+.editCheck {
+  background-color: #2980b9;
+  border-radius: 10px;
+  color: #ffffff;
+  border: none;
+  padding: 8px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin-right: 3px;
+  margin-left: 3px;
+  transition: opacity 0.3s ease;
+}
+
+.editCheck:hover{
+  background-color: #0d9e3b;
+  color: #ffffff;
+}
+
+.editCheck svg {
+  font-size: 23px;
+}
+
+.editInput {
+  width: 80%; /* Ajusta el ancho según tus necesidades */
+  padding: 5px;
+  font-size: 18px; /* Ajusta el tamaño de la fuente según tus necesidades */
+  transition: width 0.3s ease;  
+  margin-bottom: 0;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.deleteButton {
+  background-color: #b91414;
+  border-radius: 10px;
+  color: #ffffff;
+  border: none;
+  padding: 8px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.deleteButton:hover {
+  background-color: #3498db;
+  color: #ffffff;
+  animation: shake 0.5s; 
+}
+
+.deleteIcon {
+  font-size: 23px;
+}
+
+.deleteIcon {
+  font-size: 23px;
+}
+
+.footer {
+  padding-top: 10px;
+  font-size: medium;
+}
+
+.subtituloFooter {
+  font-size: 20px;
+  color: #3498db;
+}
+
+
+@media (max-width: 300px) {
+  .listContainer {
+    max-width: 300px;
+  }
+
+  .titulo {
+    font-size: 20px;
+  }
+
+  .pdfTitle {
+    font-size: 16px;
+  }
+
+  .deleteButton {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 301px) and (max-width: 730px) {
+  .listContainer {
+    max-width: 730px;
+  }
+}
